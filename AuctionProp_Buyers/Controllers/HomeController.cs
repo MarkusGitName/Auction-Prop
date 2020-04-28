@@ -26,5 +26,11 @@ namespace AuctionProp_Buyers.Controllers
 
             return View();
         }
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

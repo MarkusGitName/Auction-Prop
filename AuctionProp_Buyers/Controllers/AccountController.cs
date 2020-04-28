@@ -27,11 +27,8 @@ namespace AuctionProp_Buyers.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public async Task<ActionResult> LogIn()
-        {
-            return View();
-        }
+        
+      
 
 
         public ActionResult Register()
