@@ -1,87 +1,68 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Auction-Prop</title>
-    <link rel="shortcut icon " type="image/png" href="~/Images/favicon.png" />
 
-    <!--Bootstrap Link-->
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-   
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets\bootstrap\css\bootstrap1.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery.slider.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Auction-Prop.com | Auctions Listings</title>
 
 </head>
-<body>
 
-
-    <!--Starting Header Navigation Bar-->
-    <div class="navbar navbar-fixed-top">
-
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#"><img src="~/Images/logo.png" /></a>
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-               
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Auctions <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Bank Instructed</a></li>
-                            <li><a href="#">Residential Properties</a></li>
-                            <li><a href="#">Commercial Properties</a></li>
-                            <li><a href="#">Developments</a></li>
+<body class="page-sub-page page-listing page-grid page-search-results" id="page-top">
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="container">
+                <header class="navbar" id="top" role="banner">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand nav" id="brand">
+                            <a href="index-slider.html"><img src="Logo.png" width="250px" height="35px" alt="Auction-Prop Logo"></a>
+                        </div>
+                    </div>
+                    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="Auction Listings.html">Auctions</a>
+                            </li>
+                            <li class="has-child">
+                                <a href="#">How It Works</a>
+                                <ul class="child-navigation">
+                                    <li><a href="buyers-guide">Buyers Guide</a></li>
+                                    <li><a href="buyers-guide">Sellers Guide</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="this-is-us.html">This Is Us</a>
+                            </li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                            <li><a href="register.html" class="promoted">Register</a></li>
+                            <li>
+                                <a href="sign-in.html">Sign In</a>
+                            </li>
                         </ul>
-                    <li><a href="">Buyers Info</a></li>
-                    <li><a href="#">Sellers Info</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">T&C's</a></li>
-                </ul>
-          @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
-    
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-
-
-
-        <div class="footer">
-            <footer>
-                <div class="row">
-                    <div class="col-m-4">
-
-
-
+                    </nav><!-- /.navbar collapse-->
+                    <div class="add-your-property">
+                        <a href="submit.html" class="btn btn-default"><i class="fa fa-plus"></i><span class="text">Add Your Property</span></a>
                     </div>
-                    <div class="col-m-4">
-                        <p>Copyright© 2020</p>
-
-
-                    </div>
-                    <div class="col-m-4">
-                        <a class="" href="#"><img src="~/Images/logo.png" alt="logo" /></a>
-
-
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-</body>
-</html>
+                </header><!-- /.navbar -->
+            </div><!-- /.container -->
+        </div><!-- /.navigation -->
+        <!-- end Navigation -->

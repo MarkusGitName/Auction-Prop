@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionProp_Buyers", "Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionProp_Sellers", "AuctionProp_Sellers\AuctionProp_Sellers.csproj", "{6A7F82E2-4187-4DCB-B413-69742CE5DBFC}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Buiers", "Buiers\Buiers.vbproj", "{D5084F6D-2F36-464D-A9D3-992F0F8CC5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6A7F82E2-4187-4DCB-B413-69742CE5DBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A7F82E2-4187-4DCB-B413-69742CE5DBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A7F82E2-4187-4DCB-B413-69742CE5DBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5084F6D-2F36-464D-A9D3-992F0F8CC5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5084F6D-2F36-464D-A9D3-992F0F8CC5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5084F6D-2F36-464D-A9D3-992F0F8CC5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5084F6D-2F36-464D-A9D3-992F0F8CC5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
