@@ -110,7 +110,7 @@
                                     <div class="property small">
                                         <a href="property-detail.html">
                                             <div class="property-image">
-                                                <img alt="" src="Modern House.jpg">
+                                                <img alt="" src="~/img/properties/property-06.jpg">
                                             </div>
                                         </a>
                                         <div class="info">
@@ -122,7 +122,7 @@
                                     <div class="property small">
                                         <a href="property-detail.html">
                                             <div class="property-image">
-                                                <img alt="" src="OfficeSpace.jpg">
+                                                <img alt="" src="~/img/properties/property-06.jpg">
                                             </div>
                                         </a>
                                         <div class="info">

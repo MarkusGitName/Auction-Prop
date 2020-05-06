@@ -13,6 +13,8 @@ End Code
 @Scripts.Render("~/Scripts/bootstrap.min.js")
 @Scripts.Render("~/Scripts/custom.js")
 @Scripts.Render("~/jquery-2.1.0.min.js")
+@Scripts.Render("~")
+
 
 <!DOCTYPE html>
 
@@ -42,7 +44,7 @@ End Code
                         <a href="property-detail.html" class="link-arrow">More Info</a>
                     </div>
                 </div>
-                <img alt="" src="White Kitchen.jpg">
+                <img alt="" src="~/img/Glass Dining.jpg">
             </div>
             <div class="slide">
                 <div class="container">
@@ -127,7 +129,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-06.jpg">
+                                <img alt="" src="~/img/properties/property-06.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -161,7 +163,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-04.jpg">
+                                <img alt="" src="~/img/properties/property-04.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -195,7 +197,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-07.jpg">
+                                <img alt="" src="~/img/properties/property-07.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -229,7 +231,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-08.jpg">
+                                <img alt="" src="~/img/properties/property-08.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -285,7 +287,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-09.jpg">
+                                <img alt="" src="~/img/properties/property-09.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -319,7 +321,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-03.jpg">
+                                <img alt="" src="~/img/properties/property-03.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -353,7 +355,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-06.jpg">
+                                <img alt="" src="~/img/properties/property-06.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -387,7 +389,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-01.jpg">
+                                <img alt="" src="~/img/properties/property-01.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -423,7 +425,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-02.jpg">
+                                <img alt="" src="~/img/properties/property-02.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -457,7 +459,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-12.jpg">
+                                <img alt="" src="~/img/properties/property-12.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -491,7 +493,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-05.jpg">
+                                <img alt="" src="~/img/properties/property-05.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -525,7 +527,7 @@ End Code
                     <div class="property">
                         <a href="property-detail.html">
                             <div class="property-image">
-                                <img alt="" src="assets/img/properties/property-10.jpg">
+                                <img alt="" src="~/img/properties/property-10.jpg">
                             </div>
                             <div class="overlay">
                                 <div class="info">
@@ -565,7 +567,7 @@ End Code
                 <blockquote class="testimonial">
                     <figure>
                         <div class="image">
-                            <img alt="" src="assets/img/client-01.jpg">
+                            <img alt="" src="~/img/client-01.jpg">
                         </div>
                     </figure>
                     <aside class="cite">
@@ -576,7 +578,7 @@ End Code
                 <blockquote class="testimonial">
                     <figure>
                         <div class="image">
-                            <img alt="" src="assets/img/client-01.jpg">
+                            <img alt="" src="~/img/client-01.jpg">
                         </div>
                     </figure>
                     <aside class="cite">
@@ -591,11 +593,11 @@ End Code
         <div class="container">
             <header class="section-title"><h2>Our Partners</h2></header>
             <div class="logos">
-                <div class="logo"><a href=""><img src="assets/img/logo-partner-01.png" alt=""></a></div>
-                <div class="logo"><a href=""><img src="assets/img/logo-partner-02.png" alt=""></a></div>
-                <div class="logo"><a href=""><img src="assets/img/logo-partner-03.png" alt=""></a></div>
-                <div class="logo"><a href=""><img src="assets/img/logo-partner-04.png" alt=""></a></div>
-                <div class="logo"><a href=""><img src="assets/img/logo-partner-05.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="~/img/SA Home loans.png" width="190px" height="150px" alt=""></a></div>
+                <div class="logo"><a href=""><img src="~/img/logo-partner-01.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="~/img/logo-partner-02.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="~/img/logo-partner-03.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="~/img/logo-partner-04.png" alt=""></a></div>
             </div>
         </div><!-- /.container -->
     </section><!-- /#partners -->

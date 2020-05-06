@@ -7,7 +7,16 @@ End Code
 
 @Styles.Render("~/Content/Bootstrap.css")
 @Styles.Render("~/Content/StylesOne.css")
-@Styles.Render("~/Content/bootstrap.min")
+@Styles.Render("~/Content/bootstrap-select.min.css")
+@Styles.Render("~/Content/magnific-popup.css")
+@Styles.Render("~/Content/owl.carousel.css")
+@Styles.Render("~/Content/owl.transitions.css")
+@Styles.Render("~/Content/jquery.slider.min.css")
+@Scripts.Render("~/Scripts/bootstrap-select.min.js")
+@Scripts.Render("~/Scripts/bootstrap.min.js")
+@Scripts.Render("~/Scripts/custom.js")
+@Scripts.Render("~/jquery-2.1.0.min.js")
+@Scripts.Render("~/Scripts/jquery.countTo.js")
 
 
 <html lang="en-US">
@@ -39,7 +48,7 @@ End Code
                     <section id="about-us">
                         <header><h1>About Us</h1></header>
                         <section id="ceo-section" class="center">
-                            <header class="center"><div class="cite-title">Serving you since 1999</div></header>
+                            <header class="center"><div class="cite-title">Serving you since 2016</div></header>
                             <div class="cite no-bottom-margin">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor purus,
                                 porta eget justo et, pulvinar vehicula dolor.  Sed at turpis at augue convallis auctor ut in mi
@@ -186,7 +195,7 @@ End Code
         </div><!-- /.container -->
     </div>
     <!-- end Page Content -->
-    </div>
+
 
 </body>
 </html>

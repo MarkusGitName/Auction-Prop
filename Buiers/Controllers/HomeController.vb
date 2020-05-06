@@ -22,9 +22,12 @@
 
         Return View()
     End Function
-    Function Listings() As ActionResult
-        ViewData("Message") = "Your Auction Listings."
+
+    Function Properties() As ActionResult
+        ViewData("Message") = "Your Properties page."
 
         Return View()
     End Function
+
+
 End Class
