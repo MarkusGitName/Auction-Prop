@@ -239,7 +239,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.min.js" />
     <Content Include="Content\BootstrapOne.css" />
+    <Content Include="Content\jquery.slider.min.css" />
     <Content Include="Content\magnific-popup.css" />
+    <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\owl.transitions.css" />
     <Content Include="Content\StyleSheet1.css" />
     <Content Include="Content\StylesOne.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -291,6 +294,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.vbhtml" />
     <Content Include="Views\Shared\Lockout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
+    <Content Include="Views\Home\FAQ.vbhtml" />
+    <Content Include="Views\Home\Auction Lisitngs.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

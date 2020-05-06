@@ -16,4 +16,15 @@
 
         Return View()
     End Function
+
+    Function FAQ() As ActionResult
+        ViewData("Message") = "Your FAQ page."
+
+        Return View()
+    End Function
+    Function AuctionListings() As ActionResult
+        ViewData("Message") = "Listing page of your Auctions."
+
+        Return View()
+    End Function
 End Class
