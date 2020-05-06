@@ -22,8 +22,8 @@
 
         Return View()
     End Function
-    Function AuctionListings() As ActionResult
-        ViewData("Message") = "Listing page of your Auctions."
+    Function Listings() As ActionResult
+        ViewData("Message") = "Your Auction Listings."
 
         Return View()
     End Function

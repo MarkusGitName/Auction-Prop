@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "AuctionListings"
+    ViewData("Title") = "Listings"
 End Code
 
 @Styles.Render("~/Content/Bootstrap.css")
