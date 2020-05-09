@@ -2,8 +2,8 @@
     ViewData("Title") = "Properties"
 End Code
 
-@Styles.Render("~/Content2/Bootstrap.css")
-@Styles.Render("~/Content2/Styles.css")
+@Styles.Render("~/Content2/bootstrap1.css")
+@Styles.Render("~/Content2/style.css")
 @Styles.Render("~/Content2/bootstrap-select.min.css")
 @Styles.Render("~/Content2/magnific-popup.css")
 @Scripts.Render("~/Scripts2/bootstrap-select.min.js")
@@ -19,7 +19,6 @@ End Code
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ef4e2c1ac6.js" crossorigin="anonymous"></script>
-  
 
     <title>Auction-Prop.com | Auctions Listings</title>
 

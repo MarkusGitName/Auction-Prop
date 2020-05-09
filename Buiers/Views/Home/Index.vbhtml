@@ -13,7 +13,7 @@ End Code
 @Scripts.Render("~/Scripts/bootstrap.min.js")
 @Scripts.Render("~/Scripts/custom.js")
 @Scripts.Render("~/jquery-2.1.0.min.js")
-@Scripts.Render("~")
+@Scripts.Render("~/Scripts2/smoothscroll.js")
 
 
 <!DOCTYPE html>

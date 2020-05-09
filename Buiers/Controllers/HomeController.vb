@@ -29,5 +29,40 @@
         Return View()
     End Function
 
+    Function Detailed() As ActionResult
+        ViewData("Message") = "Detailed property page."
+
+        Return View()
+    End Function
+
+    Function Buyers() As ActionResult
+        ViewData("Message") = "Buyers guide page."
+
+        Return View()
+    End Function
+
+    Function Sellers() As ActionResult
+        ViewData("Message") = "Sellers guide page."
+
+        Return View()
+    End Function
+
+    Function Home() As ActionResult
+        ViewData("Message") = "Home page."
+
+        Return View()
+    End Function
+
+    Function ThankYou() As ActionResult
+        ViewData("Message") = "Thank you for your submission."
+
+        Return View()
+    End Function
+
+    Function MyProperties() As ActionResult
+        ViewData("Message") = "My properties page."
+
+        Return View()
+    End Function
 
 End Class
