@@ -2,6 +2,7 @@
     ViewData("Title") = "Contact"
 End Code
 
+@*
 @Styles.Render("~/Content2/Bootstrap1.css")
 @Styles.Render("~/Content2/Style.css")
 @Styles.Render("~/Content2/bootstrap-select.min.css")
@@ -10,6 +11,7 @@ End Code
 @Scripts.Render("~/Scripts2/bootstrap.min.js")
 @Scripts.Render("~/Scripts2/custom.js")
 @Scripts.Render("~/Scripts2/jquery-2.1.0.min.js")
+*@
 
 <!DOCTYPE html>
 
@@ -17,6 +19,18 @@ End Code
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/ef4e2c1ac6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/jquery.slider.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/StyleSheet1.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <title>Auction-Prop | Contact Us</title>
 
@@ -63,7 +77,7 @@ End Code
                                     </section><!-- /#social -->
                                 </div><!-- /.col-md-4 -->
                                 <div class="col-md-8 col-sm-7">
-                                    <header><h3>Where We Are</h3></header>
+                                    <header><h3>Where To Find Us</h3></header>
                                     <div id="contact-map"></div>
                                 </div><!-- /.col-md-8 -->
                             </div><!-- /.row -->
@@ -165,7 +179,7 @@ End Code
                             <div class="property small">
                                 <a href="property-detail.html">
                                     <div class="property-image">
-                                        <img alt="" src="Modern House.jpg">
+                                        <img alt="" src="~/img/properties/property-04.jpg">
                                     </div>
                                 </a>
                                 <div class="info">
@@ -177,7 +191,7 @@ End Code
                             <div class="property small">
                                 <a href="property-detail.html">
                                     <div class="property-image">
-                                        <img alt="" src="OfficeSpace.jpg">
+                                        <img alt="" src="~/img/properties/property-04.jpg">
                                     </div>
                                 </a>
                                 <div class="info">
@@ -189,7 +203,7 @@ End Code
                             <div class="property small">
                                 <a href="property-detail.html">
                                     <div class="property-image">
-                                        <img alt="" src="Living Room.jpg">
+                                        <img alt="" src="~/img/properties/property-04.jpg">
                                     </div>
                                 </a>
                                 <div class="info">
@@ -216,6 +230,26 @@ End Code
                 </div><!-- /.col-md-3 -->
                 <!-- end Page Content -->
             </div>
+
+            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery-2.1.0.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/bootstrap.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/smoothscroll.js"></script>
+            <script type="text/javascript" src="~/Scripts2/owl.carousel.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/bootstrap-select.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery.validate.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery.placeholder.js"></script>
+            <script type="text/javascript" src="~/Scripts2/icheck.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery.vanillabox-0.1.5.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/retina-1.1.0.min.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jshashtable-2.1_src.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery.numberformatter-1.2.3.js"></script>
+            <script type="text/javascript" src="~/Scripts2/tmpl.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery.dependClass-0.1.js"></script>
+            <script type="text/javascript" src="~/Scripts2/draggable-0.1.js"></script>
+            <script type="text/javascript" src="~/Scripts2/jquery.slider.js"></script>
+            <script type="text/javascript" src="~/Scripts2/custom.js"></script>
 
 </body>
 </html>

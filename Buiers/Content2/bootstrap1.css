@@ -6,6 +6,7 @@
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 
+
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -2502,9 +2503,9 @@ select[multiple].input-lg {
     }
 
 .btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
+    color: #ffffff;
+    background-color: #1d293d;
+    border-color: #1d293d;
 }
 
     .btn-default:hover,
@@ -2512,9 +2513,9 @@ select[multiple].input-lg {
     .btn-default:active,
     .btn-default.active,
     .open .dropdown-toggle.btn-default {
-        color: #333;
-        background-color: #ebebeb;
-        border-color: #adadad;
+        color: #ffffff;
+        background-color: #fa7f15;
+        border-color: #fa7f15;
     }
 
     .btn-default:active,

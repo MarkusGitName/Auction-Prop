@@ -1,7 +1,7 @@
 ﻿@Code
     ViewData("Title") = "Home"
 End Code
-
+@*
 @Styles.Render("~/Content/Bootstrap.css")
 @Styles.Render("~/Content/StylesOne.css")
 @Styles.Render("~/Content/bootstrap-select.min.css")
@@ -14,6 +14,7 @@ End Code
 @Scripts.Render("~/Scripts/custom.js")
 @Scripts.Render("~/jquery-2.1.0.min.js")
 @Scripts.Render("~/Scripts2/smoothscroll.js")
+*@
 
 
 <!DOCTYPE html>
@@ -25,12 +26,20 @@ End Code
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/ef4e2c1ac6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/jquery.slider.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="~/Content2/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/StyleSheet1.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.css" type="text/css">
 
     <title>Auction-Prop.com | Home</title>
 
 </head>
 
 <body class="page-homepage navigation-fixed-top page-slider horizontal-search-float" id="page-top" data-spy="scroll" data-target=".navigation" data-offset="90">
+    <div class="wrapper">
         <!-- Slider -->
         <div id="slider" class="loading has-parallax">
             <div id="loading-icon"><i class="fa fa-cog fa-spin"></i></div>
@@ -551,11 +560,32 @@ End Code
             </section><!-- /#partners -->
         </div>
         <!-- end Page Content -->
+    </div>
     <div id="overlay"></div>
     <script>
         $(window).load(function () {
             initializeOwl(false);
         });
     </script>
+
+    <script type="text/javascript" src="~/Scripts2/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/smoothscroll.js"></script>
+    <script type="text/javascript" src="~/Scripts2/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="~/Scripts2/icheck.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jshashtable-2.1_src.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery.numberformatter-1.2.3.js"></script>
+    <script type="text/javascript" src="~/Scripts2/tmpl.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery.dependClass-0.1.js"></script>
+    <script type="text/javascript" src="~/Scripts2/draggable-0.1.js"></script>
+    <script type="text/javascript" src="~/Scripts2/jquery.slider.js"></script>
+    <script type="text/javascript" src="~/Scripts2/custom.js"></script>
+
 </body>
 </html>

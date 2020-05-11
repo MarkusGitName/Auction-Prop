@@ -5414,7 +5414,8 @@ form label.error {
     }
 
     .horizontal-search-float .search-box .form-map {
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: #1396e2;
+        opacity: 0.9;
         padding: 15px 15px 5px 15px;
     }
 

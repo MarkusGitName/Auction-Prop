@@ -65,4 +65,16 @@
         Return View()
     End Function
 
+    Function AddProperty() As ActionResult
+        ViewData("Message") = "Add your property page."
+
+        Return View()
+    End Function
+
+    Function Register() As ActionResult
+        ViewData("Message") = "Account Registration page."
+
+        Return View()
+    End Function
+
 End Class
