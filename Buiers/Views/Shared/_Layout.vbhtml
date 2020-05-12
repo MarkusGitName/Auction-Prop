@@ -1,15 +1,17 @@
 ﻿<!DOCTYPE html>
-<html>
+
+<html lang="en-US">
 <head>
-    <meta charset="utf-8" />
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auction-Prop</title>
 
     <script src="https://kit.fontawesome.com/ef4e2c1ac6.js" crossorigin="anonymous"></script>
 
-    @Styles.Render("~/Content/Bootstrap.css")
-    @Styles.Render("~/Content/StylesOne.css")
-    @Styles.Render("~/Content/bootstrap.min") 
+    @Styles.Render("~/Content2/bootstrap1.css")
+    @Styles.Render("~/Content2/style.css")
+    @Styles.Render("~/Content2/bootstrap.min.css")
 
 </head>
 <body>
@@ -30,7 +32,7 @@
                 <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="Auction Listings.html">Auctions</a>
+                            <a href="#">Auctions</a>
                         </li>
                         <li class="has-child">
                             <a href="#">How It Works</a>
@@ -146,11 +148,11 @@
             </div><!-- /.inner -->
         </footer>
         <!-- end Page Footer -->
-        </footer>
+    </footer>
 
-        @Scripts.Render("~/bundles/jquery")
+    @* @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
         @RenderSection("scripts", required:=False)
-        
-    </body>
-    </html>
+    *@
+</body>
+</html>

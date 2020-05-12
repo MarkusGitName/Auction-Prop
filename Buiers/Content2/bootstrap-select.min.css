@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * bootstrap-select v1.5.4
  * http://silviomoreto.github.io/bootstrap-select/
  *
@@ -47,20 +47,20 @@
     width: 220px\0
 }
 
-.bootstrap-select.form-control:not([class*="span"]) {
-    width: 100%
-}
+    .bootstrap-select.form-control:not([class*="span"]) {
+        width: 100%
+    }
 
-.bootstrap-select>.btn {
-    width: 100%;
-    padding-right: 25px
-}
+    .bootstrap-select > .btn {
+        width: 100%;
+        padding-right: 25px
+    }
 
 .error .bootstrap-select .btn {
     border: 1px solid #b94a48
 }
 
-.bootstrap-select.show-menu-arrow.open>.btn {
+.bootstrap-select.show-menu-arrow.open > .btn {
     z-index: 2051
 }
 
@@ -86,14 +86,14 @@
     vertical-align: middle
 }
 
-.bootstrap-select.btn-group>.disabled,
-.bootstrap-select.btn-group .dropdown-menu li.disabled>a {
+.bootstrap-select.btn-group > .disabled,
+.bootstrap-select.btn-group .dropdown-menu li.disabled > a {
     cursor: not-allowed
 }
 
-.bootstrap-select.btn-group>.disabled:focus {
-    outline: none !important
-}
+    .bootstrap-select.btn-group > .disabled:focus {
+        outline: none !important
+    }
 
 .bootstrap-select.btn-group[class*="span"] .btn {
     width: 100%
@@ -107,24 +107,24 @@
     box-sizing: border-box
 }
 
-.bootstrap-select.btn-group .dropdown-menu.inner {
-    position: static;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none
-}
+    .bootstrap-select.btn-group .dropdown-menu.inner {
+        position: static;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none
+    }
 
-.bootstrap-select.btn-group .dropdown-menu dt {
-    display: block;
-    padding: 3px 20px;
-    cursor: default
-}
+    .bootstrap-select.btn-group .dropdown-menu dt {
+        display: block;
+        padding: 3px 20px;
+        cursor: default
+    }
 
 .bootstrap-select.btn-group .div-contain {
     overflow: hidden
@@ -134,18 +134,18 @@
     position: relative
 }
 
-.bootstrap-select.btn-group .dropdown-menu li>a.opt {
-    position: relative;
-    padding-left: 35px
-}
+    .bootstrap-select.btn-group .dropdown-menu li > a.opt {
+        position: relative;
+        padding-left: 35px
+    }
 
-.bootstrap-select.btn-group .dropdown-menu li>a {
-    cursor: pointer
-}
+    .bootstrap-select.btn-group .dropdown-menu li > a {
+        cursor: pointer
+    }
 
-.bootstrap-select.btn-group .dropdown-menu li>dt small {
-    font-weight: normal
-}
+    .bootstrap-select.btn-group .dropdown-menu li > dt small {
+        font-weight: normal
+    }
 
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark {
     position: absolute;
@@ -166,14 +166,14 @@
     padding-left: .5em
 }
 
-.bootstrap-select.btn-group .dropdown-menu li:not(.disabled)>a:hover small,
-.bootstrap-select.btn-group .dropdown-menu li:not(.disabled)>a:focus small,
-.bootstrap-select.btn-group .dropdown-menu li.active:not(.disabled)>a small {
+.bootstrap-select.btn-group .dropdown-menu li:not(.disabled) > a:hover small,
+.bootstrap-select.btn-group .dropdown-menu li:not(.disabled) > a:focus small,
+.bootstrap-select.btn-group .dropdown-menu li.active:not(.disabled) > a small {
     color: #64b1d8;
     color: rgba(255, 255, 255, 0.4)
 }
 
-.bootstrap-select.btn-group .dropdown-menu li>dt small {
+.bootstrap-select.btn-group .dropdown-menu li > dt small {
     font-weight: normal
 }
 
@@ -227,8 +227,8 @@
     left: auto
 }
 
-.bootstrap-select.show-menu-arrow.open>.dropdown-toggle:before,
-.bootstrap-select.show-menu-arrow.open>.dropdown-toggle:after {
+.bootstrap-select.show-menu-arrow.open > .dropdown-toggle:before,
+.bootstrap-select.show-menu-arrow.open > .dropdown-toggle:after {
     display: block
 }
 
@@ -296,7 +296,7 @@
     box-sizing: border-box
 }
 
-.bootstrap-select-searchbox+.bs-actionsbox {
+.bootstrap-select-searchbox + .bs-actionsbox {
     padding: 0 8px 4px
 }
 
