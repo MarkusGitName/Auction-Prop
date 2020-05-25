@@ -60,5 +60,11 @@ namespace Auctionprop08052020.Controllers
 
             return View();
         }
+        public ActionResult Error()
+        {
+            ViewBag.Message = "404 Error Page";
+
+            return View();
+        }
     }
 }

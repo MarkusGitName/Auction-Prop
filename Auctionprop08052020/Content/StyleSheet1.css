@@ -482,7 +482,7 @@ ul.list-links {
         line-height: 1;
         text-transform: none;
         content: "\f104";
-        color: #1396e2;
+        color: #1d293d;
         right: 0;
         font-size: 18px;
         margin-right: 10px;
@@ -497,7 +497,7 @@ ul.list-links {
     }
 
         .link-arrow.back:hover:before {
-            color: #073855;
+            color: #fa7f15;
             right: 5px;
         }
 
@@ -2358,7 +2358,7 @@ ul.flip {
     }
 
     .error-page .title header {
-        color: #1396e2;
+        color: #fa7f15;
         font-size: 99px;
         font-weight: lighter;
         position: relative;
