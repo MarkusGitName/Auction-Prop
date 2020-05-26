@@ -66,5 +66,23 @@ namespace Auctionprop08052020.Controllers
 
             return View();
         }
+        public ActionResult Privacy()
+        {
+            ViewBag.Message = "Privacy Policy";
+
+            return View();
+        }
+        public ActionResult Forbidden()
+        {
+            ViewBag.Message = "403 Forbidden Page";
+
+            return View();
+        }
+        public ActionResult Terms()
+        {
+            ViewBag.Message = "Terms & Conditions Page";
+
+            return View();
+        }
     }
 }
